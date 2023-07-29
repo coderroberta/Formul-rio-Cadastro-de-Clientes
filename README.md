@@ -22,4 +22,9 @@ Form, fieldset, label
            - criar uma tag label (explicação do campo)
             - criar imput (entrada de valor )
 
-Em construção....
+
+•	E-MAIL
+
+  -CRIAR OUTRA LABEL 
+           - criar uma tag label (EMAIL)
+            - criar imput (entrada de valor )
