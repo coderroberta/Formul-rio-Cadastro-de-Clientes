@@ -46,17 +46,14 @@ input, textarea, button {
 
      fieldset .grupo .campo {
              float: left;
-             margin-right: 
+             margin-right: 1em;   
      }
-     
 .campo input [type="text"], .campo input[type="email"], .campo textarea {
     padding: 0;
-    border:  1px solid #59429d;
-    box-shadow: 2px 2 px 2px #rgba(0,0,0,0.2);
+    border:  1px solid #59429d ;
+    box-shadow: 2px 2 px 2px #59429d;
     display: block;
     }
-
-
 
 .boton {
 font-size: 1.2em;
@@ -67,14 +64,13 @@ color: #ffffff;
 padding: 0.2em 0,6em;
 box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 position: absolute
-top: 90%;
+top 90%;
 left: 50%;
-transforme: translate(-50%, -50%);
 }
 
 .boton:hover {
       background: #ccbbff;
-      box-shadow: : inset 2px 2px 2px rgba(0,0,0,0.2);
+      box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
       text-shadow: nome;
 
 }
