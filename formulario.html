@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="lstylesheet" type="text" href="formulario.css">
 
     <title>CADASTRO dO CLIENTE</title>
 
@@ -11,44 +12,44 @@
 <body>
 
     <DIV>
-         <h1>Cadastro do Cliente</h1>
-         <p>Informações de contato</p>
+         <h1 id="título">Cadastro do Cliente</h1>
+         <p id="Subtítulo">Informações de contato</p>
          <br>
     </DIV>
 
     <form>
-        <fieldset>
-            <div>
-                <label>Nome</label>
-                <input type="text" nome="nome" id="nome">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome" required> 
             </div>
 
-            <div>
-                <label>Sobrenome</label>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label required> 
                 <input type="text" nome="Sobrenome" id="sobrenome">
             </div>
 
         </fieldset> 
 
-        <div>
-            <label>Email</label>
-            <input type="Email" nome="email" id="email">
+        <div class="campo">
+            <label for="email"><strong>email</strong></label>
+            <input type="Email" nome="email" id="email" required>
         </div>
 
-        <div>
-            <label>Telefone</label>
-            <input type="tel" nome="Telefone" id="Telefone">
+        <div class="campo"> 
+            <label for="Telefone"><strong>Telefone</strong></label>
+            <input type="tel" nome="Telefone" id="Telefone" required>
           </div>
 
-        <div>
-            <label>Fonte do contato</label>
-            <input type="text" nome="nome" id="nome">
+        <div class="campo">
+            <label for="nome">Fonte do contato</label>
+            <input type="text" nome="nome" id="nome" required>
         </div>
 
     </form>
     
     
-    <div>
+    <div class="campo">
         <label>Status do cliente</label>
         <label>
             <input type="radio" nome="text" volue="Proposta aguardando retono" checked>Aguardando retorno
@@ -65,14 +66,14 @@
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="grupo">
             <legend>Anotações</legend>
             <label for="texto">Digite até 600 caracteres</label>
             <textarea id="texto" name="texto   rows="6" cols="50" maxlength="600" required></textarea>
 
         </fieldset>
 
-        <button> concluído</button>"
+        <button class="botão"> concluído</button>
 
     </form>
 
