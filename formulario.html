@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="lstylesheet" type="text" href="formulario.css">
+    <link rel="stylesheet" type="text" href="formulario.css">
 
     <title>CADASTRO dO CLIENTE</title>
 
@@ -25,8 +25,8 @@
             </div>
 
             <div class="campo">
-                <label for="sobrenome"><strong>Sobrenome</strong></label required> 
-                <input type="text" nome="Sobrenome" id="sobrenome">
+                <label for="sobrenome"><strong>Sobrenome</strong></label> 
+                <input type="text" nome="Sobrenome" id="sobrenome" required>
             </div>
 
         </fieldset> 
@@ -52,15 +52,15 @@
     <div class="campo">
         <label>Status do cliente</label>
         <label>
-            <input type="radio" nome="text" volue="Proposta aguardando retono" checked>Aguardando retorno
+            <input type="radio" nome="Status" volue="Proposta aguardando retono" checked>Aguardando retorno
         </label>
 
         <label>
-            <input type="radio" nome="text" volue="Proposta aprovada">Proposta aprovada
+            <input type="radio" nome="Status" value="Proposta aprovada">Proposta aprovada
         </label>
 
         <label>
-            <input type="radio" nome="text" volue="Proposta recusada">Proposta recusada
+            <input type="radio" nome="Status" volue="Proposta recusada">Proposta recusada
         </label>
     
     </div>
